@@ -1,0 +1,41 @@
+* {
+	font-family: 'Yusei Magic', sans-ser;
+	font-weight: 400;
+	color: #fff;
+}
+
+body {
+	background: rgb(48, 43, 90);
+}
+
+.container {
+	padding: 20px 5px;
+	background: #86f;
+	border: 2px solid #79e;
+	width: 500px;
+	height: 380px;
+	margin:  40px;
+	background-image: url(https://w.wallhaven.cc/full/z8/wallhaven-z8mq8y.jpg) ;
+	background-size: cover;
+	background-attachment:scroll;
+}
+
+.caja {
+	background: rgb(34, 130, 255);
+    height: 80px;
+	width: 80px;
+	margin: 0px 20px;
+	display: flex;
+	color: #fff;
+	transition: transform 1s;
+	transform: translate(30px);
+}
+
+.caja:hover {
+	transform: skew(30deg);
+}
+
+b {
+	margin: auto;
+	transform: skew(-30deg)
+}
